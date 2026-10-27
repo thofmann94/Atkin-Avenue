@@ -294,81 +294,61 @@
         <button class="tree-control" type="button" id="collapse-family">Collapse all generations</button>
       </div>
       <div class="family-groups">
-        <section class="family-group">
-          <button class="family-toggle" type="button" id="toggle-children" aria-expanded="true" aria-controls="children-list">
-            <span>Children &amp; Spouses<span class="toggle-hint">3 family members · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
-          </button>
-          <div class="family-content" id="children-list">
-            <ul>
-              <li><strong>Jan &amp; Pat</strong>
-                <ul>
-                  <li><strong>Pam &amp; Lew</strong>
-                    <ul>
-                      <li>Calley</li>
-                      <li>Patrick &amp; Chiaka</li>
-                      <li>Brooke</li>
-                      <li>Trevor &amp; Whitney</li>
-                    </ul>
-                  </li>
-                  <li><strong>Jenny &amp; Rob</strong>
-                    <ul><li>Ryan &amp; Ivonne</li><li>Adam</li></ul>
-                  </li>
-                  <li><strong>Ginger &amp; Dave</strong>
-                    <ul>
-                      <li>Ellie &amp; Ethan</li>
-                      <li>Anne &amp; Jonathan</li>
-                      <li>Tyler &amp; Jordan</li>
-                      <li>Tim</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="family-group">
-          <button class="family-toggle" type="button" id="toggle-grandchildren" aria-expanded="true" aria-controls="grandchildren-list">
-            <span>Grandchildren &amp; Spouses<span class="toggle-hint">Grandchildren grouped by parents · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
-          </button>
-          <div class="family-content" id="grandchildren-list">
-            <ul>
-              <li><strong>Pam &amp; Lew</strong>
-                <ul><li>Calley Hancock</li><li>Patrick &amp; Chiaka Hofmann</li><li>Brooke Hofmann</li><li>Trevor &amp; Whitney Hofmann</li></ul>
-              </li>
-              <li><strong>Jenny &amp; Rob</strong>
-                <ul><li>Ryan &amp; Ivonne Wilson</li><li>Adam Wilson</li></ul>
-              </li>
-              <li><strong>Ginger &amp; Dave</strong>
-                <ul><li>Ellie &amp; Ethan Case</li><li>Anne &amp; Jonathan Elwart</li><li>Tyler &amp; Jordan Smith</li><li>Tim Smith</li></ul>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section class="family-group">
-          <button class="family-toggle" type="button" id="toggle-greatgrandchildren" aria-expanded="true" aria-controls="greatgrandchildren-list">
-            <span>Great-Grandchildren<span class="toggle-hint">7 great-grandchildren · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
-          </button>
-          <div class="family-content" id="greatgrandchildren-list">
-            <ul>
-              <li><strong>Ellie &amp; Ethan Case</strong>
-                <ul><li>Easton Case</li><li>Eric Case</li></ul>
-              </li>
-              <li><strong>Anne &amp; Jonathan Elwart</strong>
-                <ul><li>June Elwart</li><li>Parker Elwart</li></ul>
-              </li>
-              <li><strong>Patrick &amp; Chiaka Hofmann</strong>
-                <ul><li>Leland Hofmann</li></ul>
-              </li>
-              <li><strong>Trevor &amp; Whitney Hofmann</strong>
-                <ul><li>Ashby Hofmann</li></ul>
-              </li>
-              <li><strong>Tyler &amp; Jordan Smith</strong>
-                <ul><li>Steele Smith</li></ul>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+  <section class="family-group">
+    <button class="family-toggle" type="button" id="toggle-children" aria-expanded="true" aria-controls="children-list">
+      <span>Children &amp; Spouses<span class="toggle-hint">3 family members · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
+    </button>
+    <div class="family-content" id="children-list">
+      <ul>
+        <li><strong>Pam &amp; Lew</strong></li>
+        <li><strong>Jenny &amp; Rob</strong></li>
+        <li><strong>Ginger &amp; Dave</strong></li>
+      </ul>
+    </div>
+  </section>
+  <section class="family-group">
+    <button class="family-toggle" type="button" id="toggle-grandchildren" aria-expanded="true" aria-controls="grandchildren-list">
+      <span>Grandchildren &amp; Spouses<span class="toggle-hint">Grandchildren grouped by parents · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
+    </button>
+    <div class="family-content" id="grandchildren-list">
+      <ul>
+        <li><strong>Pam &amp; Lew</strong>
+          <ul><li>Calley Hancock</li><li>Patrick &amp; Chiaka Hofmann</li><li>Brooke Hofmann</li><li>Trevor &amp; Whitney Hofmann</li></ul>
+        </li>
+        <li><strong>Jenny &amp; Rob</strong>
+          <ul><li>Ryan &amp; Ivonne Wilson</li><li>Adam Wilson</li></ul>
+        </li>
+        <li><strong>Ginger &amp; Dave</strong>
+          <ul><li>Ellie &amp; Ethan Case</li><li>Anne &amp; Jonathan Elwart</li><li>Tyler &amp; Jordan Smith</li><li>Tim Smith</li></ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="family-group">
+    <button class="family-toggle" type="button" id="toggle-greatgrandchildren" aria-expanded="true" aria-controls="greatgrandchildren-list">
+      <span>Great-Grandchildren<span class="toggle-hint">7 great-grandchildren · Tap to expand</span></span><span class="toggle-icon" aria-hidden="true">−</span>
+    </button>
+    <div class="family-content" id="greatgrandchildren-list">
+      <ul>
+        <li><strong>Ellie &amp; Ethan Case</strong>
+          <ul><li>Easton Case</li><li>Eric Case</li></ul>
+        </li>
+        <li><strong>Anne &amp; Jonathan Elwart</strong>
+          <ul><li>June Elwart</li><li>Parker Elwart</li></ul>
+        </li>
+        <li><strong>Patrick &amp; Chiaka Hofmann</strong>
+          <ul><li>Leland Hofmann</li></ul>
+        </li>
+        <li><strong>Trevor &amp; Whitney Hofmann</strong>
+          <ul><li>Ashby Hofmann</li></ul>
+        </li>
+        <li><strong>Tyler &amp; Jordan Smith</strong>
+          <ul><li>Steele Smith</li></ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
       <p class="tree-note">Names are grouped under their parents so the family connections are clear. Branches without confirmed children are left as-is.</p>
     </section>
   </main>
